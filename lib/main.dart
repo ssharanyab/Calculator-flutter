@@ -31,12 +31,11 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: new Container(
+        child: new Column(children:<Widget>[
+          new Text("0")
 
-        child: new Column(children:<widget>[
-
-        new Text("0")]
-
-        ),
+        ],)
+     
       ),
     );
   }
