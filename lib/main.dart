@@ -45,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       n1 = double.parse(output);
       operand = buttonText;
       _output = "0";
+      output = n1 as String;
     } else if (buttonText == ".") {
       if (_output.contains(".")) {
         print("Already contains a decimal");
